@@ -5,5 +5,5 @@
 #     http_host: 'example.org',
 #     https: false
 #   )
-gem 'aws-sdk'
+
 # end

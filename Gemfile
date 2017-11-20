@@ -18,19 +18,19 @@ gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'simple_form', '~> 3.5'
 gem 'devise', '~> 4.3'
-gem 'paperclip', '~> 5.1'
+# gem 'paperclip', '~> 5.1'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 # gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
-gem 'aws-sdk', '2.10.47'
+# gem 'aws-sdk', '2.10.47'
 # gem 'aws-sdk', '~> 3.0.0.rc7'
 # gem 'aws-sdk', '~> 2.10', '>= 2.10.86'
 
 
 # gem "rails", ">= 4.2"
-# gem "paperclip", ">= 5.0"
-# gem "aws-sdk", ">= 2.0"
+ gem "paperclip", ">= 5.0"
+ gem "aws-sdk", ">= 2.0"
 
 
 group :development, :test do

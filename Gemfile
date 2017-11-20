@@ -23,10 +23,10 @@ gem 'masonry-rails', '~> 0.2.4'
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 # gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
-# gem 'aws-sdk', '2.10.47'
+gem 'aws-sdk', '2.10.47'
 # gem 'aws-sdk', '~> 3.0.0.rc7'
 # gem 'aws-sdk', '~> 2.10', '>= 2.10.86'
-gem 'aws-sdk', '~> 3.0.0.rc3'
+
 
 # gem "rails", ">= 4.2"
 # gem "paperclip", ">= 5.0"

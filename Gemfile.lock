@@ -239,7 +239,7 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_votable (~> 0.11.1)
-  aws-sdk (>= 2.0)
+  aws-sdk (~> 2.3)
   bootstrap-sass (~> 3.3, >= 3.3.7)
   byebug
   capybara (~> 2.13)
@@ -250,7 +250,7 @@ DEPENDENCIES
   jquery-rails (~> 4.3, >= 4.3.1)
   listen (>= 3.0.5, < 3.2)
   masonry-rails (~> 0.2.4)
-  paperclip (>= 5.0)
+  paperclip
   pg
   puma (~> 3.7)
   rails (~> 5.1.4)

@@ -29,8 +29,11 @@ gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 
 
 # gem "rails", ">= 4.2"
- gem "paperclip", ">= 5.0"
- gem "aws-sdk", ">= 2.0"
+ # gem "paperclip", ">= 5.0"
+ # gem "aws-sdk", ">= 2.0"
+
+ gem 'paperclip'
+ gem 'aws-sdk', '~> 2.3'
 
 
 group :development, :test do

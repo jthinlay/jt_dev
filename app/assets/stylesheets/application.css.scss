@@ -19,6 +19,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.center{
+	color: red;
+	text-align: center;
+}
+.pagination{
+	margin: 20px 450px;
+}
+
 body {
 	background: #E9E9E9;
 }
@@ -116,3 +124,4 @@ nav {
 textarea {
 	min-height: 250px;
 }
+

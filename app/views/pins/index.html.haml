@@ -1,12 +1,12 @@
-#pins.transitions-enabled
-  - @pins.each do |pin|
-    .box.panel.panel-default
-      = link_to (image_tag pin.image.url), pin
-      .panel-body
-        %h2= link_to pin.title, pin 
-        %p.user
-        Submitted by
-        = pin.user.email	
-
-      .panel-footer.center 
-        = will_paginate @pins, renderer: BootstrapPagination::Rails
+.container
+  #pins.transitions-enabled
+    - @pins.each do |pin|
+      .box.panel.panel-default
+        = link_to (image_tag pin.image.url), pin
+        .panel-body
+          %h2= link_to pin.title, pin 
+          %p.user
+          Submitted by
+          = pin.user.email	
+  .center 
+  = will_paginate @pins, renderer: BootstrapPagination::Rails, previous_label: "Older", next_label: "Newer",  class: "pagination pagination-centered"
